@@ -260,8 +260,11 @@ background-image: linear-gradient(to bottom, #FFFFFF 0%, #EEEEEE 100%);}
 .catalog .goods li .btn {width:82px; height:28px; display:inline-block;margin:0px auto 0;background:#F55A3A;color:#fff;text-align:center;line-height:28px;border-radius:3px;text-decoration:none;position:relative;top:0px;left:4px;}
 .catalog .goods li .pm {width:100px;display:table; margin:0px 0 0 0;float:left;line-height: 83px;text-align:center;}
 
-.catalog .goods li .btn.btn-fast-order {background:#73BF43;}
-
+/*.catalog .goods li .btn.btn-fast-order {background:#73BF43;}*/
+.catalog .goods li .btn.btn-fast-order {
+	background-image: linear-gradient(#73BF43 1%,#579132 99%);
+	text-shadow: 0 -2px 0 #73BF43;
+}
 
 .catalog .goods li .compare {font-size:9px;position:relative;display:none;line-height:1;}
 .catalog .goods li:hover .compare {display:block;}
