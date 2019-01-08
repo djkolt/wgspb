@@ -34,36 +34,6 @@ a:hover {text-decoration:none;}
 }
 
 nav ul {list-style:none; }
-/* попробую стиль для списка */
-.bullet {
-margin-left: 0;
-list-style: none;
-counter-reset: li;
-}
-.bullet li {
-position: relative;
-margin-bottom: 1.5em;
-border: 3px solid #CADFCF;
-padding: 0.6em;
-border-radius: 4px;
-background: #FEFEFE;
-color: #231F20;
-font-family: "Trebuchet MS", "Lucida Sans";
-}
-.bullet li:before {
-position: absolute;
-top: -0.7em;
-padding-left: 0.4em;
-padding-right: 0.4em;
-font-size: 16px;
-font-weight: bold;
-color: #DCC24B;
-background: #FEFEFE;
-border-radius: 50%;
-counter-increment: li;
-content: counter(li);
-}
-/* конец */
 
 /* сброс font-family:Arial, sans-serif; */
 * {
